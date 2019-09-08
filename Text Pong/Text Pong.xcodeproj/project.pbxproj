@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97179A75232571D900AACC92 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97179A74232571D900AACC92 /* AppIcon.png */; };
+		973BDE47230E0E6B0060AEE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BDE46230E0E6B0060AEE5 /* AppDelegate.swift */; };
+		973BDE49230E0E6B0060AEE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BDE48230E0E6B0060AEE5 /* SceneDelegate.swift */; };
+		973BDE4C230E0E6B0060AEE5 /* Text_Pong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 973BDE4A230E0E6B0060AEE5 /* Text_Pong.xcdatamodeld */; };
+		973BDE4E230E0E6B0060AEE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BDE4D230E0E6B0060AEE5 /* ContentView.swift */; };
+		973BDE50230E0E6E0060AEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973BDE4F230E0E6E0060AEE5 /* Assets.xcassets */; };
+		973BDE53230E0E6E0060AEE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973BDE52230E0E6E0060AEE5 /* Preview Assets.xcassets */; };
+		973BDE56230E0E6E0060AEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973BDE54230E0E6E0060AEE5 /* LaunchScreen.storyboard */; };
+		975D7E242314A37D0098BD41 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D7E232314A37D0098BD41 /* Game.swift */; };
+		976156EC232587EC00458959 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 976156EB232587EC00458959 /* Icon-App-40x40@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97179A74232571D900AACC92 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		973BDE43230E0E6B0060AEE5 /* Text Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		973BDE46230E0E6B0060AEE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		973BDE48230E0E6B0060AEE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		973BDE4B230E0E6B0060AEE5 /* Text_Pong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Text_Pong.xcdatamodel; sourceTree = "<group>"; };
+		973BDE4D230E0E6B0060AEE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		973BDE4F230E0E6E0060AEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		973BDE52230E0E6E0060AEE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		973BDE55230E0E6E0060AEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		973BDE57230E0E6E0060AEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975D7E232314A37D0098BD41 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		976156EB232587EC00458959 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973BDE40230E0E6B0060AEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		973BDE3A230E0E6B0060AEE5 = {
+			isa = PBXGroup;
+			children = (
+				973BDE45230E0E6B0060AEE5 /* Text Pong */,
+				973BDE44230E0E6B0060AEE5 /* Products */,
+				976156EB232587EC00458959 /* Icon-App-40x40@3x.png */,
+			);
+			sourceTree = "<group>";
+		};
+		973BDE44230E0E6B0060AEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973BDE43230E0E6B0060AEE5 /* Text Pong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973BDE45230E0E6B0060AEE5 /* Text Pong */ = {
+			isa = PBXGroup;
+			children = (
+				973BDE46230E0E6B0060AEE5 /* AppDelegate.swift */,
+				973BDE48230E0E6B0060AEE5 /* SceneDelegate.swift */,
+				973BDE4D230E0E6B0060AEE5 /* ContentView.swift */,
+				975D7E232314A37D0098BD41 /* Game.swift */,
+				973BDE4F230E0E6E0060AEE5 /* Assets.xcassets */,
+				97179A74232571D900AACC92 /* AppIcon.png */,
+				973BDE54230E0E6E0060AEE5 /* LaunchScreen.storyboard */,
+				973BDE57230E0E6E0060AEE5 /* Info.plist */,
+				973BDE4A230E0E6B0060AEE5 /* Text_Pong.xcdatamodeld */,
+				973BDE51230E0E6E0060AEE5 /* Preview Content */,
+			);
+			path = "Text Pong";
+			sourceTree = "<group>";
+		};
+		973BDE51230E0E6E0060AEE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				973BDE52230E0E6E0060AEE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973BDE42230E0E6B0060AEE5 /* Text Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973BDE5A230E0E6E0060AEE5 /* Build configuration list for PBXNativeTarget "Text Pong" */;
+			buildPhases = (
+				973BDE3F230E0E6B0060AEE5 /* Sources */,
+				973BDE40230E0E6B0060AEE5 /* Frameworks */,
+				973BDE41230E0E6B0060AEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Pong";
+			productName = "Text Pong";
+			productReference = 973BDE43230E0E6B0060AEE5 /* Text Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		973BDE3B230E0E6B0060AEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Thomas Braun";
+				TargetAttributes = {
+					973BDE42230E0E6B0060AEE5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 973BDE3E230E0E6B0060AEE5 /* Build configuration list for PBXProject "Text Pong" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 973BDE3A230E0E6B0060AEE5;
+			productRefGroup = 973BDE44230E0E6B0060AEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973BDE42230E0E6B0060AEE5 /* Text Pong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973BDE41230E0E6B0060AEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97179A75232571D900AACC92 /* AppIcon.png in Resources */,
+				973BDE56230E0E6E0060AEE5 /* LaunchScreen.storyboard in Resources */,
+				973BDE53230E0E6E0060AEE5 /* Preview Assets.xcassets in Resources */,
+				973BDE50230E0E6E0060AEE5 /* Assets.xcassets in Resources */,
+				976156EC232587EC00458959 /* Icon-App-40x40@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		973BDE3F230E0E6B0060AEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973BDE47230E0E6B0060AEE5 /* AppDelegate.swift in Sources */,
+				975D7E242314A37D0098BD41 /* Game.swift in Sources */,
+				973BDE49230E0E6B0060AEE5 /* SceneDelegate.swift in Sources */,
+				973BDE4E230E0E6B0060AEE5 /* ContentView.swift in Sources */,
+				973BDE4C230E0E6B0060AEE5 /* Text_Pong.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		973BDE54230E0E6E0060AEE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973BDE55230E0E6E0060AEE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		973BDE58230E0E6E0060AEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		973BDE59230E0E6E0060AEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973BDE5B230E0E6E0060AEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Text Pong/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Text Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Braun.Text-Pong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		973BDE5C230E0E6E0060AEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Text Pong/Preview Content\"";
+				DEVELOPMENT_TEAM = GFGJV6265F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Text Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Braun.Text-Pong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		973BDE3E230E0E6B0060AEE5 /* Build configuration list for PBXProject "Text Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973BDE58230E0E6E0060AEE5 /* Debug */,
+				973BDE59230E0E6E0060AEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973BDE5A230E0E6E0060AEE5 /* Build configuration list for PBXNativeTarget "Text Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973BDE5B230E0E6E0060AEE5 /* Debug */,
+				973BDE5C230E0E6E0060AEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		973BDE4A230E0E6B0060AEE5 /* Text_Pong.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				973BDE4B230E0E6B0060AEE5 /* Text_Pong.xcdatamodel */,
+			);
+			currentVersion = 973BDE4B230E0E6B0060AEE5 /* Text_Pong.xcdatamodel */;
+			path = Text_Pong.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 973BDE3B230E0E6B0060AEE5 /* Project object */;
+}
